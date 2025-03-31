@@ -166,7 +166,10 @@
 //   `/Assets/gif (7).gif`,
 // ];
 
-let Assets = ["@/app/Assets/jpg (1).jpg"];
+import Image from "next/image";
+import Link from "next/link";
+
+let Assets = ["/app/Assets/jpg (1).jpg", "/Assets/jpg (1).jpg"];
 
 const ImagesLiberary = () => {
   return (
@@ -179,14 +182,25 @@ const ImagesLiberary = () => {
           >
             {/* // Dynamically create image elements and append them to the
             imgGallery */}
-
-            {/* {Assets.map((Asset) => (
+            <Image
+              src=""
+              width={500}
+              height={500}
+              alt="Picture of the author"
+            />
+            {Assets.map((Asset) => (
               <div key={Asset} className="flex max-w-lg rounded-lg">
-                <a target="_blank" href={Asset}>
-                  <img src={Asset} className="rounded-lg box-border" />
-                </a>
+                <Link target="_blank" href={Asset}>
+                  <Image
+                    src={Asset}
+                    width={500}
+                    height={500}
+                    className="rounded-lg box-border"
+                    alt=""
+                  />
+                </Link>
               </div>
-            ))} */}
+            ))}
           </div>
         </div>
       </div>
