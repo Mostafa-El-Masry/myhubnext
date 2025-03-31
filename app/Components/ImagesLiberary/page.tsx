@@ -1,5 +1,3 @@
-import React from "react";
-
 // let Assets = [
 //   `/Assets/jpg (1).jpg`,
 //   `/Assets/jpg (2).jpg`,
@@ -179,8 +177,9 @@ const ImagesLiberary = () => {
             className="imggallery mt-5 justify-around m-auto py-2"
             id="gallery"
           >
-            // Dynamically create image elements and append them to the
-            imgGallery
+            {/* // Dynamically create image elements and append them to the
+            imgGallery */}
+
             {/* {Assets.map((Asset) => (
               <div key={Asset} className="flex max-w-lg rounded-lg">
                 <a target="_blank" href={Asset}>

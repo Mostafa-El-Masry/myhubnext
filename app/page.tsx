@@ -1,5 +1,5 @@
 import React from "react";
-import ImagesLiberary from "./components/ImagesLiberary";
+import ImagesLiberary from "./Components/ImagesLiberary/page";
 
 const page = () => {
   return (
