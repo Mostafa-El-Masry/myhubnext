@@ -168,8 +168,9 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import Assestss from "@/app/Assets/jpg (1).jpg";
 
-const Assets = ["/app/Assets/jpg (1).jpg", "/Assets/jpg (1).jpg"];
+const Assets = [Assestss];
 
 const ImagesLiberary = () => {
   return (
