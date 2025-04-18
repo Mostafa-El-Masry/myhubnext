@@ -7,7 +7,7 @@ const page = () => {
     <>
       Home
       <Dashboard />
-      <Link href="/Components/ImagesLiberary">ImagesLiberary</Link>
+      <Link href="/ImagesLiberary">ImagesLiberary</Link>
     </>
   );
 };
