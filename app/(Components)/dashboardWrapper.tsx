@@ -1,6 +1,8 @@
+import Navbar from "./Navbar"
+import SideBar from "./SideBar"
 
-import Navbar from "./Navbar/Navbar"
-import SideBar from "./SideBar/SideBar"
+
+
 
 
 const DashboardWrapper = ({children} : {children: React.ReactNode}) => {
