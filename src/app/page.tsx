@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Dashboard from '@/app/dashboard/page';
+import Dashboard from '@/src/app/dashboard/page';
 
 const page = () => {
   return (

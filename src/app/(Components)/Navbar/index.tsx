@@ -3,7 +3,7 @@ import { Bell, Menu, Settings, Sun } from "lucide-react";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import myGif from '@/app/gif.gif';
+import myGif from '@/src/app/gif.gif';
 
 const Navbar = () => {
   return (
